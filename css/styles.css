@@ -256,11 +256,14 @@ h1{
         font-size: 10em;
     } */
 }
-/* @media screen and (max-width: 540px){
-    .title-header h6{
-        font-size: 1.2em
+@media screen and (max-width: 540px){
+    .textbox p{
+        width: 80%;
     }
-} */
+    .history{
+        padding: 10px;
+    }
+}
 .content{
     position: relative;
     display: flex;

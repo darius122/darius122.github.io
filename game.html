@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minigame</title>
+    <link rel = "stylesheet" href = "css/styles.css">
+    <script src = "js/script.js" defer></script>
+</head>
+<body>
+    <nav class = "nav-bar">
+        <div class = "container">
+            <h1>Sushi</h1>
+            <div class = "menu">
+                <a href = "index.html" >Home</a>
+                <a href = "ingredients.html">Ingredients & Types</a>
+                <a href = "nutrition.html">Nutrition</a>
+                <a href = "game.html">Game</a>
+            </div>
+            <button class = "hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    <nav class = "mobile-nav">
+        <a href = "index.html" >Home</a>
+        <a href = "ingredients.html">Ingredients & Types</a>
+        <a href = "nutrition.html">Nutrition</a>
+        <a href = "game.html">Game</a>
+    </nav>  
+    <div class = "title-header">
+        <h6>Matching game</h6>
+        <p>match the sushi to their name</p>
+    </div>
+   
+    <div class = "draggable-elements">
+        <img src = "images/egg sushi.png" class = "egg-sushi draggable" alt = "egg sushi" id = "egg" style = "color: orange">  
+        <img src = "images/salmon sushi.png" class = "salmon-sushi draggable" alt = "salmon sushi" id = "salmon" style = "color: salmon">  
+        <img src = "images/crabstick sushi.png" class = "crabstick-sushi draggable" alt = "crabstick sushi" id = "crabstick" style = "color: red">  
+        <img src = "images/prawn sushi.png" class = "prawn-sushi draggable" alt = "prawn sushi" id = "prawn" style = "color: orangered">  
+        <img src = "images/makiroll.png" class = "maki-roll draggable" alt = "maki roll" id = "maki" style = "color: grey">  
+    </div>
+    <div class = "droppable-elements">
+        <div class = "droppable" data-draggable-id = "maki"><span>Maki Roll</span></div>
+        <div class = "droppable" data-draggable-id = "crabstick"><span>Kani nigiri</span></div>
+        <div class = "droppable" data-draggable-id = "egg"><span>Tamago Nigiri</span></div>
+        <div class = "droppable" data-draggable-id = "salmon"><span>Salmon Nigiri</span></div> 
+        <div class = "droppable" data-draggable-id = "prawn"><span>Prawn Nigiri</span></div>
+    </div>
+</body>
+</html>

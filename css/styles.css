@@ -252,9 +252,9 @@ h1{
     section h1{
         display: none;
     }
-    body{
+    /* body{
         font-size: 10em;
-    }
+    } */
 }
 .content{
     position: relative;
